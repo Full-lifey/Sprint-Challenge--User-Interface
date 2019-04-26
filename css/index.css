@@ -66,6 +66,12 @@ p {
     line-height: 1.4;
 }
 
+button {
+    background: white;
+    width: 100px;
+    border-radius: 5px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -86,7 +92,7 @@ p {
     margin: 0 45px 0 45px;
 }
 
-header {
+.header-img {
     margin: 30px 0 20px 0;
 }
 
@@ -202,4 +208,27 @@ footer {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-content {
+    width: 750px;
+    margin: 25px;
+}
+
+.about-header {
+    padding: 0 25px 20px 25px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-boxes {
+    box-sizing: border-box;
+    margin: 0 20px 0 20px;
+    padding: 20px 0 20px 0;
+    width: 45%;
+    border-bottom: 1px dashed black;
 }
