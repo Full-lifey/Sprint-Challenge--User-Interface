@@ -33,23 +33,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    - Semantic HTML brings meaning to the HTML content. This meaning is derived in a structure that also allows for effective styling via CSS.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    - The biggest difference is direction. Display: block takes all available horizontal space not allowing other elements on it's horizontal line. Display: inline only takes up the space of the content, allowing elements on the same horizontal. Another key difference is display: block allows for hight and width whereas display inline does not.
 
 3. What are the 4 areas of the box model?
+    - content, padding, border, and margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    - This depends on which direction the flex boxes are taking. If they are in a row, it will align them in the center vertically. If in a column it will align them horizontally.
 
 5. Explain why git is valuable to a team of developers.
+    - Git is incredibly valuable to a team of developers because of several factors. First and most prominent is line-by-line tracking of changes. This allows full auditability of all code changes and accountability of developers to those changes. This also breeds a platform of discussion on changes as well on a line-by-line level. This level of granularity also allows for quick rollback of commits as needed. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
