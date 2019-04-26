@@ -70,6 +70,8 @@ button {
     background: white;
     width: 100px;
     border-radius: 5px;
+    height: 25px;
+    margin-top: 10px;
 }
 
 .container {
@@ -227,8 +229,17 @@ footer nav a {
 
 .about-boxes {
     box-sizing: border-box;
-    margin: 0 20px 0 20px;
+    margin: 0 15px 0 15px;
     padding: 20px 0 20px 0;
-    width: 45%;
+    width: 46%;
     border-bottom: 1px dashed black;
+}
+
+.about-boxes img {
+    margin-bottom: 10px;
+}
+
+.about-bottom-content {
+    margin: 25px;
+    padding: 20px 0 20px 0;
 }
